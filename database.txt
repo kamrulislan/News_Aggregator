@@ -1,0 +1,10 @@
+users:
+
+user_id
+user_yourname
+user_username
+user_email
+user_pass
+user_role
+
+user_reg

@@ -1,0 +1,108 @@
+.user-head {
+  background-color: #0881781f;
+  text-align: center;
+  color: #000;
+  padding: 60px 0;
+  margin-bottom: 50px;
+}
+.user-head span {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.user-table {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.user-data {
+  width: 100%;
+}
+
+.user-data table {
+  border-collapse: collapse;
+}
+
+.user-data th,
+td {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+.user-data th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.user-data tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.user-data tr:hover {
+  background-color: #e1f0ef;
+}
+.user-data a {
+  color: #000;
+  margin-left: 20px;
+}
+#admin-content {
+  margin-bottom: 50px;
+}
+#admin-content .admin-pagination {
+  margin: 0;
+}
+#admin-content .admin-pagination li a {
+  display: block;
+}
+
+/* Pagination  Styling */
+.pagination {
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+
+.pagination li a {
+  border: none;
+  background: #088178;
+  color: #fff;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.pagination li a:hover,
+.pagination > li > a:focus {
+  color: #fff;
+  background: #088178;
+}
+
+.page_links {
+  background-color: #ccc;
+  font-family: arial, verdana;
+  font-size: 12px;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 6px;
+  margin: 3px;
+}
+
+#page_a_link {
+  font-size: 12px;
+  border: 1px #000000 solid;
+  color: #000;
+  background-color: #cccccc;
+  padding: 6px;
+  margin: 3px;
+  text-decoration: none;
+}
+
+i.fa {
+  color: #222;
+}

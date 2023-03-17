@@ -1,0 +1,75 @@
+ <!-- news section 
+    <?php
+    foreach ($newsdata->articles as $kayes) {
+    ?>
+
+
+
+    <div class="row">
+        <?php echo $kayes->$title  ?>
+    </div>
+    <?php
+    }
+    ?>
+
+open -->
+
+dbConnect
+
+db_conn
+
+user-registration
+user_yourname
+user_username
+user_email
+user_pass
+user_role
+
+
+news_cat
+news_cat_id
+news_cat_name
+news_cat_sub
+
+
+
+kayes45
+
+1 sobar
+2,3, > kamrul
+4,10,11 > kayes
+5,6,7 >Meem
+8,9 > Nahid
+
+
+
+
+<?php
+session_start();
+if (!isset($_SESSION['user_username'])) {
+    header("location: http://localhost/newsaggregator/user-signin.php");
+}
+
+
+?>
+
+
+<?php
+session_start();
+if (isset($_SESSION['user_username'])) {
+    header("location: index.php");
+}
+
+
+?>
+
+
+ 
+• Login system 
+• News categories add, update, delete. 
+• Admin can publish News with news title, description, 
+feature image, etc. 
+
+
+
+

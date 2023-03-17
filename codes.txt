@@ -1,0 +1,21 @@
+<input type="hidden" name="p_id" value="<?php echo $result['p_id'];?>">
+
+
+
+          <td>
+                  <?php 
+            $tem_tbl_id= $result["cp_product_id"];
+            $query22="SELECT * FROM `product` where p_id='$tem_tbl_id'";
+            $data11=mysqli_query($con,$query22);
+            $final_res=mysqli_fetch_assoc($data11);
+
+          ?>
+    
+            <img src="./admin/pic/<?php   echo $final_res['p_img']; ?>" width="70px" height="70px">
+        
+        
+          </td>
+
+
+$query1 ="select * from product where p_cat='Laptop'";
+$qryshow=mysqli_query($con,$query1);
